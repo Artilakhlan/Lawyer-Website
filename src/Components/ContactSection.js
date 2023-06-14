@@ -15,13 +15,21 @@ const ContactSection = () => {
       }}
     >
       <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-        <img src={image67} alt="Example" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-        <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
-          <h1 style={{ color: 'black', textAlign: 'center', fontSize: '50px' }}>TIME TO GET SERIOUS</h1>
-        </div>
+  <img src={image67} alt="Example" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+  <div style={{ position: 'absolute', top: '50%', right: '0', transform: 'translateY(-50%)' }}>
+    <h1 style={{ color: 'black', textAlign: 'right', fontSize: '50px' }}>
+      <div style={{ whiteSpace: 'nowrap' }}>
+        TIME<br />
+        TO GET<br />
+        SERIOUS
       </div>
+    </h1>
+  </div>
+</div>
 
-      <div style={{ backgroundColor: '#ebebe0', padding: '20px', width: '100%', height: '100%' }}>
+
+
+      <div style={{ backgroundColor: '#ebebe0', padding: '20px', width: '100%'}}>
         <Typography variant="h6" align="center" gutterBottom style={{ margin: '0 auto' }}>
           Contact An Attorney
         </Typography>
