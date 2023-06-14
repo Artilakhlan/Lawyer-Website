@@ -77,7 +77,7 @@ function BottomPage() {
           </Box>
         </Box>
         <Box>
-         <h3 marginRight='20px'>SUBSCRIBE TO US</h3>
+         <h3 >SUBSCRIBE TO US</h3>
           <Typography variant="body1">Get the latest tips and updates weekly</Typography>
           <Box display="flex" alignItems="center" marginTop="10px">
             <TextField label="Your Email" variant="outlined" />
