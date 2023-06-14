@@ -14,15 +14,17 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  
+
 }
+
 
 .App-link {
   color: #61dafb;
@@ -36,3 +38,248 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  margin-right: 200px;
+  margin-left: 200px;
+
+  
+}
+
+.header h1 {
+  margin: 0;
+  color: grey;
+  font-size: 20px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  font-size: 12px; /* Adjust the font size as per your preference */
+}
+
+.phone-icon {
+  margin-right: 3px; /* Adjust the margin as per your preference */
+  font-size: 12px; /* Adjust the font size as per your preference */
+}
+
+.phone-details {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px; /* Adjust the font size as per your preference */
+}
+
+
+.consultation-button {
+  padding: 5px 10px; /* Adjust the padding values as per your preference */
+  font-size: 12px; /* Adjust the font size as per your preference */
+  background-color:  orange;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.consultation-text {
+  color:  orange;
+}
+
+.navbar {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin-right: 100px;
+  margin-left: 100px;
+  height: 35px;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: space-between;
+  width: calc(100% - 230px); /* Subtract the total margin width from the navbar width */
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color:  orange;
+}
+
+.section {
+  
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.background-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content-box {
+  background-color: grey;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+.white-text {
+  color: white;
+  font-size: 24px;
+}
+
+.orange-text {
+  color:  orange;
+  font-size: 24px;
+}
+@media (max-width: 768px) {
+  .white-text {
+    font-size: 18px;
+  }
+  
+  .orange-text {
+    font-size: 18px;
+  }
+}
+
+
+
+
+
+
+
+
+
+.paragraph {
+  text-align: center;
+}
+.vertical-line {
+  width: 1px;
+  background-color: grey;
+  margin: 0 10px;
+}
+.Section-4 {
+  color: orange;
+     font-size: 1.2rem;
+   font-family: 'Oswald';
+}
+/*.backgroundimagesecond {
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.image-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.heading-imagelist {
+  text-align: center;
+  margin-bottom: 20px;
+  color: orange;
+}
+
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.image-list-item {
+  flex-basis: 33.33%;
+  box-sizing: border-box;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.image-list-item:hover {
+  transform: translateY(-5px);
+}
+
+.image-list-item.blue-bg {
+  background-color: blue;
+}
+
+.image-list-item.orange-bg {
+  background-color: orange;
+}
+
+.image-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+}
+
+.icon {
+  font-size: 4rem;
+}
+
+.title {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.blue-background {
+  background-color: blue;
+  color: white;
+}
+
+.orange-background {
+  background-color: orange;
+  color: white;
+}
+
+.imagelist-button {
+  display: block;
+  margin: 0 auto;
+}*/
+
+
+
+
